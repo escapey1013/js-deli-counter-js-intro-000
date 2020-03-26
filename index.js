@@ -19,7 +19,7 @@ function currentLine(array) {
   } else {
       var message = "The line is currently:"
       for (let i = 0; i < array.length; i++) {
-        var messageNew = `${message} ${i + 1}. ${array[i]}`;
+        var messageNew = `${message} ${i + 1}. ${array[i]},`;
         var message = messageNew;
       }
       return message;
