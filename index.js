@@ -7,7 +7,7 @@ function nowServing(array) {
   if (array.length > 0) {
     var firstInLine = array.slice(0,1);
     array.unshift();
-    return `Currently serving ${firstInLine}`;
+    return `Currently serving ${firstInLine}.`;
   } else {
     return "There is nobody waiting to be served!";
   }
