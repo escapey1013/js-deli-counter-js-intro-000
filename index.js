@@ -6,7 +6,7 @@ function takeANumber(array, name) {
 function nowServing(array) {
   if (array.length > 0) {
     var firstInLine = array.slice(0,1);
-    array.unshift();
+    array.shift();
     return `Currently serving ${firstInLine}.`;
   } else {
     return "There is nobody waiting to be served!";
